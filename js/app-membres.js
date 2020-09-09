@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+	$('.menus h2').on('click', function(e) {
+		$(this).next('ul').toggleClass('open');
+		e.preventDefault(); 
+		return false;
+	});
+	
 	$('.menus h3').on('click', function(e) {
 		$(this).next('ul').toggleClass('open');
 		e.preventDefault(); 
