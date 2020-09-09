@@ -24,7 +24,7 @@ body {
   font-size: 14px;
   font-family: "Lato", sans-serif;
   line-height: 1.4;
-  background: url("../images/fondpresentation.jpg") no-repeat fixed;
+  background: url("../images/fond/fondpresentation.jpg") no-repeat fixed;
   background-size: 70%;
   background-position: right;
 ;}
@@ -36,49 +36,49 @@ body.membres {
 }
 
 body.equipvoile {
-  background: url("../images/voile/fondequipe.jpg") no-repeat fixed;
+  background: url("../images/fond/fondequipe.jpg") no-repeat fixed;
   background-size: 100%;
   background-position: right;
 }
 
 body.actuvoile {
-  background: url("../images/voile/fondactu.png") no-repeat fixed;
+  background: url("../images/fond/fondactu.png") no-repeat fixed;
   background-size: 90%;
   background-position: right;
 
 }
 body.contact {
-  background: url("../images/fondcontact.jpg") no-repeat fixed;
+  background: url("../images/fond/fondcontact.jpg") no-repeat fixed;
   background-size: 50%;
   background-position: right;
 
 }
 
 body.resultatvoile {
-  background: url("../images/voile/fondresultat.jpg") no-repeat fixed;
+  background: url("../images/fond/fondresultat.jpg") no-repeat fixed;
   background-size: 90%;
   background-position: right;
 }
 
 body.cordee {
-  background: url("../images/fondcordee.png") no-repeat fixed;
+  background: url("../images/fond/fondcordee.png") no-repeat fixed;
   background-size: 70%;
   background-position: right;
   }
 
 body.acse {
-  background: url("../images/fondACSE.jpg") no-repeat fixed;
+  background: url("../images/fond/fondACSE.jpg") no-repeat fixed;
   background-size: 50%;
   background-position: right;
 }
   body.frappa {
-  background: url("../images/fond.jpg") no-repeat fixed;
+  background: url("../images/fond/fond.jpg") no-repeat fixed;
   background-size: 45%;
   background-position: right;
   }
 
     body.plaquette {
-  background: url(""../images/EOLIFT_logo.png"") no-repeat fixed;
+  background: url("../images/EOLIFT_logo.png") no-repeat fixed;
   background-size: 75%;
   background-position: right;
   }
@@ -163,6 +163,7 @@ body.acse {
           background: url(../images/nav-sprite@2x.png) no-repeat;
           background-size: 49px 18px;
           }*/ }
+
     .menus h3.general {
       color: #4dd6b9; }
       .menus h3.general:before {
@@ -183,6 +184,7 @@ body.acse {
       .menus h3.contact:before {
         width: 17px;
         background-position: -34px 0px; }
+
   .menus ul {
     list-style: none;
     padding: 0;
