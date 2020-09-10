@@ -866,9 +866,18 @@ input, textarea {
 }
 /*============================ WRAPPER ============================*/
 #wrapper {
+
+    background: #fff;
+  width: 100%;
+  margin: 0% 0% auto;}
+
+  @media screen and (min-width: 760px) {
+    #wrapper {
   background: #fff;
-  width: 60%;
-  margin: 0% 30% auto;
+  width: 70%;
+  margin: 0% 25% auto;} 
+
+
 }
 #foot_wrap {
   background: #fff;
